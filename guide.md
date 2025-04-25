@@ -35,11 +35,11 @@ kubernetes version 1.30.4
 
 ```
 $ kubectl create namespace monitoring
-```
+
 ubuntu@test-cluster-1:~$ kubectl get ns
 NAME              STATUS   AGE
 monitoring        Active   2s
-
+```
 
 ### <div id='1.2'> 1.2. 프로메테우스 커뮤니티를 helm-chart에 등록
 
