@@ -1,7 +1,4 @@
-#  prometheus + grafana 모니터링 스택 구축
-
-- 클러스터 상태를 모니터링 할 수 있는 환경 구성, 대시보드 예시 포함
-
+#  prometheus + grafana 모니터링 
 
 ## Table of Contents
 
@@ -185,7 +182,9 @@ prometheus-prometheus-node-exporter       ClusterIP   10.233.19.150   <none>    
 {mater node ip}:31463 접속
 
 
-![alt text](<스크린샷 2025-04-25 153656.png>)
+
+ ![img1](./images/img1.png)
+
 
 
 - login 
@@ -197,16 +196,14 @@ prometheus-prometheus-node-exporter       ClusterIP   10.233.19.150   <none>    
 
 - login 후 화면 
 
-![alt text](<스크린샷 2025-04-25 153908.png>)
+ ![img2](./images/img2.png)
 
 3. 대시보드 확인
 
 - 좌측 상단의 dashboard 선택 
 
-![alt text](<스크린샷 2025-04-25 155404.png>)
-
-
+ ![img3](./images/img3.png)
 
 - 모니터링 하고 싶은 목록 선택 
 
-![alt text](<스크린샷 2025-04-25 155302.png>)
+ ![img4](./images/img4.png)
